@@ -3,10 +3,10 @@ entries:
   actions-runner-controller:
   - apiVersion: v2
     appVersion: 0.25.2
-    created: "2022-08-06T16:10:29.140122037Z"
+    created: "2022-08-06T16:20:24.995154276Z"
     description: A Kubernetes controller that operates self-hosted runners for GitHub
       Actions on your Kubernetes cluster.
-    digest: 04978cd34ecf16ac88e500fe73fc5619baf0816b7ed716a10eb887ff5f40fbea
+    digest: 870a55657a4c39111fe9f3a1e60a319c0a8dff715d0c04863e1a6a18d6faea01
     home: https://github.com/actions-runner-controller/actions-runner-controller
     maintainers:
     - name: RjDev
@@ -21,7 +21,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-08-06T16:10:29.14146904Z"
+    created: "2022-08-06T16:20:24.996194191Z"
     description: A Helm chart for Kubernetes
     digest: 1d2cf6c76b67739ca47f23d55bef72ecfd5ca7fe2268130d93486da52eef7416
     maintainers:
@@ -33,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T16:10:29.140604838Z"
+    created: "2022-08-06T16:20:24.995721384Z"
     description: A Helm chart for Kubernetes
     digest: 395b663a8ceadf6c3a9c7e9ebb0b11a910c399be06493c319d878d711b3763d0
     name: mychart
@@ -44,9 +44,9 @@ entries:
   mychart-2:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-08-06T16:10:29.142632643Z"
+    created: "2022-08-06T16:20:24.997079604Z"
     description: A Helm chart for Kubernetes
-    digest: d20e6effad62660d1c64b7baf86de971d2438336df62da521377b4c16de1de26
+    digest: 2d64b4b7af7245ba1128418cadf518967667335da75efefe90057e4a98cb40d2
     maintainers:
     - name: RjDev
     name: mychart-2
@@ -56,7 +56,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T16:10:29.142051742Z"
+    created: "2022-08-06T16:20:24.996632897Z"
     description: A Helm chart for Kubernetes
     digest: 77ba1fdffa3baaf414b25cb206ecccb3e19d41bf9de8fb8e316c32aba7e44a60
     name: mychart-2
@@ -67,9 +67,9 @@ entries:
   mychart-test:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-08-06T16:10:29.143667846Z"
+    created: "2022-08-06T16:20:24.997962516Z"
     description: A Helm chart for Kubernetes
-    digest: 5a30a52d32b6a1e21afe7ec5272c924e3fc7fa23004f93ea88ac8fbb11acc20a
+    digest: 2b73e7de770d4e1bf2d3c7cd6fd859890a8a983b11aeccf679bffe63552a7cee
     maintainers:
     - name: RjDev
     name: mychart-test
@@ -79,7 +79,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T16:10:29.143226145Z"
+    created: "2022-08-06T16:20:24.99750831Z"
     description: A Helm chart for Kubernetes
     digest: 49f7ce40ac06032b9844f4db0377204f6028e18c841e75d59772c470b6e46e68
     name: mychart-test
@@ -89,8 +89,20 @@ entries:
     version: 0.1.0
   runner-hrs:
   - apiVersion: v2
+    appVersion: 1.20.0
+    created: "2022-08-06T16:20:24.998991931Z"
+    description: A Helm chart to deploy runner and hrs
+    digest: b7ec7bcf603a22b8c8f2a4b1d06e66dd32f7fb4a335e66692989c7ea4921e891
+    maintainers:
+    - name: RjDev
+    name: runner-hrs
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/runner-hrs-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: 1.19.0
-    created: "2022-08-06T16:10:29.144413748Z"
+    created: "2022-08-06T16:20:24.998646926Z"
     description: A Helm chart to deploy runner and hrs
     digest: 7fa38c3a8fd7cf02fd701683e3dadb636f5f8d030ac4f5a656e9b6bd81539691
     maintainers:
@@ -102,7 +114,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2022-08-06T16:10:29.144007347Z"
+    created: "2022-08-06T16:20:24.998297121Z"
     description: A Helm chart to deploy runner and hrs
     digest: 2c0e596814ceda56682752d2c09431d2e30d4c691a26f8a05689e8773c768da5
     maintainers:
@@ -112,4 +124,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/runner-hrs-0.3.0.tgz
     version: 0.3.0
-generated: "2022-08-06T16:10:29.13000451Z"
+generated: "2022-08-06T16:20:24.985667342Z"
