@@ -11,6 +11,17 @@ entries:
     urls:
     - https://github.com/GitRunnerOrg/runner-helm-charts-repo/releases/download/mychart-0.1.0/mychart-0.1.0.tgz
     version: 0.1.0
+  mychart-2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-06T05:19:46.978461095Z"
+    description: A Helm chart for Kubernetes
+    digest: 16d8a7ce300784d8ac02a7d1977f4cce8f25eb8d6a3db5af9227f1f7e1dcbf03
+    name: mychart-2
+    type: application
+    urls:
+    - https://github.com/GitRunnerOrg/runner-helm-charts-repo/releases/download/mychart-2-0.1.0/mychart-2-0.1.0.tgz
+    version: 0.1.0
   mychart-test:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -22,4 +33,4 @@ entries:
     urls:
     - https://github.com/GitRunnerOrg/runner-helm-charts-repo/releases/download/mychart-test-0.1.0/mychart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-06T05:16:54.310070998Z"
+generated: "2022-08-06T05:19:46.978464795Z"
