@@ -3,9 +3,9 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T06:01:40.482062054Z"
+    created: "2022-08-06T06:01:57.928581506Z"
     description: A Helm chart for Kubernetes
-    digest: ed1088e19e4a4f0bdc72323014d746ea1019ab310c572c0ab1b8998bf7b2f131
+    digest: aa3bb6d1a9a30de3fc887842f488c540a1fa87ec4dae3644c1b91b7eb154f7c3
     name: mychart
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   mychart-2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T06:01:40.482549056Z"
+    created: "2022-08-06T06:01:57.929277451Z"
     description: A Helm chart for Kubernetes
-    digest: 13dbfc9fabbe5d7f80b7bd9cd7c2ae8ec1b1f6d6824f8d6f22ee868f431fb974
+    digest: 639c1bc4d099870701ae0bcdaa3ccb3f944564d03e5cb162701de04c95a966af
     name: mychart-2
     type: application
     urls:
@@ -25,12 +25,12 @@ entries:
   mychart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T06:01:40.483014157Z"
+    created: "2022-08-06T06:01:57.929859789Z"
     description: A Helm chart for Kubernetes
-    digest: 96aaaae43263e76fdd976ae41a7b9e29290fd752609b487489ee16e4191c0a69
+    digest: e4b3e671dd8ef0805fa03ba23414a394cce06cb3890bea278cb7683afa759c9e
     name: mychart-test
     type: application
     urls:
     - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/mychart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-06T06:01:40.481411652Z"
+generated: "2022-08-06T06:01:57.925192587Z"
