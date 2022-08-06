@@ -3,10 +3,27 @@ entries:
   actions-runner-controller:
   - apiVersion: v2
     appVersion: 0.25.2
-    created: "2022-08-06T17:57:17.31909417Z"
+    created: "2022-08-06T17:58:44.873595886Z"
     description: A Kubernetes controller that operates self-hosted runners for GitHub
       Actions on your Kubernetes cluster.
-    digest: cfe98d516a1647d67833744bedd664187ceec7f1ba8d3206127687c383bd5306
+    digest: 6cddb6a9d65d5930427bd19565baf758350160b12d11c1fd41e0efabddf6ba66
+    home: https://github.com/actions-runner-controller/actions-runner-controller
+    maintainers:
+    - name: RjDev
+      url: https://github.com/actions-runner-controller
+    name: actions-runner-controller
+    sources:
+    - https://github.com/actions-runner-controller/actions-runner-controller
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/actions-runner-controller-0.24.2.tgz
+    version: 0.24.2
+  - apiVersion: v2
+    appVersion: 0.25.2
+    created: "2022-08-06T17:58:44.864255524Z"
+    description: A Kubernetes controller that operates self-hosted runners for GitHub
+      Actions on your Kubernetes cluster.
+    digest: c2883d1b5be18e2085f77c98845d3799a8a413e20efe47667e7aaa38ab54992a
     home: https://github.com/actions-runner-controller/actions-runner-controller
     maintainers:
     - name: RjDev
@@ -20,7 +37,7 @@ entries:
     version: 0.23.2
   - apiVersion: v2
     appVersion: 0.25.2
-    created: "2022-08-06T17:57:17.310767512Z"
+    created: "2022-08-06T17:58:44.854848961Z"
     description: A Kubernetes controller that operates self-hosted runners for GitHub
       Actions on your Kubernetes cluster.
     digest: 32097d3270dc46e5c229ae48483cdf6dabec6c306f17bacc9f375df7bac4998e
@@ -37,7 +54,7 @@ entries:
     version: 0.22.2
   - apiVersion: v2
     appVersion: 0.25.2
-    created: "2022-08-06T17:57:17.302259551Z"
+    created: "2022-08-06T17:58:44.84518299Z"
     description: A Kubernetes controller that operates self-hosted runners for GitHub
       Actions on your Kubernetes cluster.
     digest: bd53496dc0d60225e65f5436d17a5a131aaf01e0221f7610913c80b2959e1ec4
@@ -54,7 +71,7 @@ entries:
     version: 0.21.2
   - apiVersion: v2
     appVersion: 0.25.2
-    created: "2022-08-06T17:57:17.294137897Z"
+    created: "2022-08-06T17:58:44.835165909Z"
     description: A Kubernetes controller that operates self-hosted runners for GitHub
       Actions on your Kubernetes cluster.
     digest: 4286cdb5e4359be3f78fe10a989bcf96567478c3fcca728869a993147e7a4216
@@ -72,7 +89,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-08-06T17:57:17.320240592Z"
+    created: "2022-08-06T17:58:44.874722717Z"
     description: A Helm chart for Kubernetes
     digest: 1d2cf6c76b67739ca47f23d55bef72ecfd5ca7fe2268130d93486da52eef7416
     maintainers:
@@ -84,7 +101,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T17:57:17.319565879Z"
+    created: "2022-08-06T17:58:44.874163202Z"
     description: A Helm chart for Kubernetes
     digest: 395b663a8ceadf6c3a9c7e9ebb0b11a910c399be06493c319d878d711b3763d0
     name: mychart
@@ -95,9 +112,9 @@ entries:
   mychart-2:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-08-06T17:57:17.321572017Z"
+    created: "2022-08-06T17:58:44.876350363Z"
     description: A Helm chart for Kubernetes
-    digest: 9a3b7d32cb8d5e8e9b6fc0cca60f3a012e190f4674ec9f57107b5f3c8ca33848
+    digest: e51ad2c551134e67696edfa1ab47d6fa24fbb116780c346be7a9e57ece6c5481
     maintainers:
     - name: RjDev
     name: mychart-2
@@ -107,7 +124,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T17:57:17.320941305Z"
+    created: "2022-08-06T17:58:44.875610142Z"
     description: A Helm chart for Kubernetes
     digest: 77ba1fdffa3baaf414b25cb206ecccb3e19d41bf9de8fb8e316c32aba7e44a60
     name: mychart-2
@@ -118,9 +135,9 @@ entries:
   mychart-test:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-08-06T17:57:17.322747639Z"
+    created: "2022-08-06T17:58:44.877881106Z"
     description: A Helm chart for Kubernetes
-    digest: c707c0bb5fa33bf6c587016f7fcd2282c74291b0c8a56a6c48b2057b26830fea
+    digest: 2a081bb305915f123682dc8a2e69529e11acd9c58ba0326878e90230dae4e316
     maintainers:
     - name: RjDev
     name: mychart-test
@@ -130,7 +147,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T17:57:17.322296531Z"
+    created: "2022-08-06T17:58:44.877052183Z"
     description: A Helm chart for Kubernetes
     digest: 49f7ce40ac06032b9844f4db0377204f6028e18c841e75d59772c470b6e46e68
     name: mychart-test
@@ -141,9 +158,9 @@ entries:
   runner-hrs:
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-08-06T17:57:17.324250268Z"
+    created: "2022-08-06T17:58:44.879634555Z"
     description: A Helm chart to deploy runner and hrs
-    digest: f5a8d4040576ec6070c4d1ab0c85e329548b2d182560a1a6038f099c089257a1
+    digest: a328f69942cf4e57129c96b63ebd36040bd3717e0a6fa54e5c0f7519d070336d
     maintainers:
     - name: RjDev
     name: runner-hrs
@@ -153,7 +170,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-08-06T17:57:17.32384156Z"
+    created: "2022-08-06T17:58:44.879181342Z"
     description: A Helm chart to deploy runner and hrs
     digest: b7ec7bcf603a22b8c8f2a4b1d06e66dd32f7fb4a335e66692989c7ea4921e891
     maintainers:
@@ -165,7 +182,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2022-08-06T17:57:17.323459153Z"
+    created: "2022-08-06T17:58:44.87872843Z"
     description: A Helm chart to deploy runner and hrs
     digest: 7fa38c3a8fd7cf02fd701683e3dadb636f5f8d030ac4f5a656e9b6bd81539691
     maintainers:
@@ -177,7 +194,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2022-08-06T17:57:17.323105346Z"
+    created: "2022-08-06T17:58:44.878315918Z"
     description: A Helm chart to deploy runner and hrs
     digest: 2c0e596814ceda56682752d2c09431d2e30d4c691a26f8a05689e8773c768da5
     maintainers:
@@ -187,4 +204,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/runner-hrs-0.3.0.tgz
     version: 0.3.0
-generated: "2022-08-06T17:57:17.284219309Z"
+generated: "2022-08-06T17:58:44.820634802Z"
