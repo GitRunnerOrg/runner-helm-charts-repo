@@ -2,7 +2,7 @@ apiVersion: actions.summerwind.dev/v1alpha1
 kind: HorizontalRunnerAutoscaler
 metadata:
   name: runner-autoscaler
-  namespace: actions-runner-system
+  #namespace: actions-runner-system
 spec:
   minReplicas: 4
   maxReplicas: 10
