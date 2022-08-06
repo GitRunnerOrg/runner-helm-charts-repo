@@ -3,34 +3,34 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T04:56:14.602929182Z"
+    created: "2022-08-06T05:59:43.506291337Z"
     description: A Helm chart for Kubernetes
-    digest: 1d5b0b8cbeb8d9dde1a70c5aea4dc8b161dc1416dd9e2e9c1e1b14cd2337a12c
+    digest: 564ffadcd9f23631baff8d03667ea33b6e1cc0a6d4f1fb6dd567d236252b9b40
     name: mychart
     type: application
     urls:
-    - https://github.com/GitRunnerOrg/runner-helm-charts-repo/releases/download/mychart-0.1.0/mychart-0.1.0.tgz
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/mychart-0.1.0.tgz
     version: 0.1.0
   mychart-2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T05:19:46.978461095Z"
+    created: "2022-08-06T05:59:43.506844769Z"
     description: A Helm chart for Kubernetes
-    digest: 16d8a7ce300784d8ac02a7d1977f4cce8f25eb8d6a3db5af9227f1f7e1dcbf03
+    digest: f1dc20c4aa41ad9c65ec1bb22c6946926647a4db118ee2674de6421137629dd7
     name: mychart-2
     type: application
     urls:
-    - https://github.com/GitRunnerOrg/runner-helm-charts-repo/releases/download/mychart-2-0.1.0/mychart-2-0.1.0.tgz
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/mychart-2-0.1.0.tgz
     version: 0.1.0
   mychart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T05:16:54.310067098Z"
+    created: "2022-08-06T05:59:43.507377099Z"
     description: A Helm chart for Kubernetes
-    digest: 60dbb4790bfb3b3d7f2c0ec362a1792b96d1ab8d3d865177a0a37272da0ca9f5
+    digest: 4e2e161c8ee2dc5718f40df580d25391d68ef43709f0caec4ddd49719840490c
     name: mychart-test
     type: application
     urls:
-    - https://github.com/GitRunnerOrg/runner-helm-charts-repo/releases/download/mychart-test-0.1.0/mychart-test-0.1.0.tgz
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/mychart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-06T05:19:46.978464795Z"
+generated: "2022-08-06T05:59:43.505395687Z"
