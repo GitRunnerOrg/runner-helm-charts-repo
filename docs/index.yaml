@@ -3,34 +3,34 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T06:42:21.648385666Z"
+    created: "2022-08-06T06:44:14.467339474Z"
     description: A Helm chart for Kubernetes
-    digest: 395b663a8ceadf6c3a9c7e9ebb0b11a910c399be06493c319d878d711b3763d0
+    digest: c8cef34195387c8a3d1324ea97d775f91c87c96fa45bef807f8c509178f53275
     name: mychart
     type: application
     urls:
-    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/mychart-0.1.0.tgz
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/mychart-0.1.0.tgz
     version: 0.1.0
   mychart-2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T06:42:21.648942572Z"
+    created: "2022-08-06T06:44:14.46814108Z"
     description: A Helm chart for Kubernetes
-    digest: 77ba1fdffa3baaf414b25cb206ecccb3e19d41bf9de8fb8e316c32aba7e44a60
+    digest: 298a355907efbe674251ee1c55d80f805b437c9e5d693b6544e03433aae23c71
     name: mychart-2
     type: application
     urls:
-    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/mychart-2-0.1.0.tgz
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/mychart-2-0.1.0.tgz
     version: 0.1.0
   mychart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T06:42:21.64959658Z"
+    created: "2022-08-06T06:44:14.468922185Z"
     description: A Helm chart for Kubernetes
-    digest: 49f7ce40ac06032b9844f4db0377204f6028e18c841e75d59772c470b6e46e68
+    digest: 1040930dfb667828eb16468e41ebb2efdf00f284477301bc443f23cc03e626fe
     name: mychart-test
     type: application
     urls:
-    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/mychart-test-0.1.0.tgz
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/mychart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-06T06:42:21.646855648Z"
+generated: "2022-08-06T06:44:14.465967565Z"
