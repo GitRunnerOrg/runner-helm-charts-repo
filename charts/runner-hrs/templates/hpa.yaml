@@ -1,24 +1,17 @@
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: HorizontalRunnerAutoscaler
 metadata:
-  name: runner-autoscaler
+  name: runners-HorizontalRunnerAutoscaler
   namespace: actions-runner-system
 spec:
+  scaleDownDelaySecondsAfterScaleOut: 300
   minReplicas: 4
   maxReplicas: 10
   scaleTargetRef:
     name: org-runnerdeploy
-  metrics:
-    - type: PercentageRunnersBusy
-      scaleUpThreshold: '1'
-      scaleDownThreshold: '0.5'
-      ScaleUpAdjustment: '1'
-      ScaleDownAdjustment: '1'
+    # Uncomment the below in case the target is not RunnerDeployment but RunnerSet
+    #kind: RunnerSet
   scaleUpTriggers:
-    - githubEvent:
-        checkRun:
-          types:
-            - created
-          status: queued
-      amount: 1
-      duration: 5m
+  - githubEvent:
+      workflowJob: {}
+    duration: "30m"
