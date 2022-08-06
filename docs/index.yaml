@@ -3,9 +3,9 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-08-06T10:35:59.119498466Z"
+    created: "2022-08-06T10:45:13.935014998Z"
     description: A Helm chart for Kubernetes
-    digest: b5f0d9f9166626d3fcf66fb1dc9b38d168bbc23ac32cfc4b626cf309676acd8f
+    digest: bc19fe588ac18a27c98349960a3b0fd4133ef12ed57a1a91564d19209010a8d7
     maintainers:
     - name: RjDev
     name: mychart
@@ -15,7 +15,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T10:35:59.118873258Z"
+    created: "2022-08-06T10:45:13.934382703Z"
     description: A Helm chart for Kubernetes
     digest: 395b663a8ceadf6c3a9c7e9ebb0b11a910c399be06493c319d878d711b3763d0
     name: mychart
@@ -26,9 +26,9 @@ entries:
   mychart-2:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-08-06T10:35:59.121098585Z"
+    created: "2022-08-06T10:45:13.936501787Z"
     description: A Helm chart for Kubernetes
-    digest: 1bdb18866eec43e8ee1fdf3ab4f1a84e4de7e349436c818c198139545fdeb587
+    digest: 64cc2d1fc1c1039d584076e4b6031d0490318bbc400494f69ab31bbf4818f997
     maintainers:
     - name: RjDev
     name: mychart-2
@@ -38,7 +38,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T10:35:59.120581679Z"
+    created: "2022-08-06T10:45:13.935889591Z"
     description: A Helm chart for Kubernetes
     digest: 77ba1fdffa3baaf414b25cb206ecccb3e19d41bf9de8fb8e316c32aba7e44a60
     name: mychart-2
@@ -49,9 +49,9 @@ entries:
   mychart-test:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-08-06T10:35:59.122617804Z"
+    created: "2022-08-06T10:45:13.93741408Z"
     description: A Helm chart for Kubernetes
-    digest: 6a482de45cb5630eb3911924d9867f313c78e722f0da95de70a74ad7b06a0548
+    digest: 2e8a9592b7d50801195daff9b7ab7926852e542162f7184301b72f918c2a2af0
     maintainers:
     - name: RjDev
     name: mychart-test
@@ -61,7 +61,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-06T10:35:59.121569491Z"
+    created: "2022-08-06T10:45:13.936967383Z"
     description: A Helm chart for Kubernetes
     digest: 49f7ce40ac06032b9844f4db0377204f6028e18c841e75d59772c470b6e46e68
     name: mychart-test
@@ -69,4 +69,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/mychart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-06T10:35:59.116590131Z"
+generated: "2022-08-06T10:45:13.932866714Z"
