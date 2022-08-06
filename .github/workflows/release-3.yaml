@@ -41,7 +41,7 @@ jobs:
         working-directory: dest/docs
         run: >
           helm repo index . --url
-          https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages
+          https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs
 
           git config user.name "RjDev"
 
