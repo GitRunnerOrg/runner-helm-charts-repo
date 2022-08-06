@@ -1,6 +1,10 @@
 apiVersion: v2
 name: mychart
 description: A Helm chart for Kubernetes
+maintainers: 
+  - name: "Ravi Kumar"
+    email: "rjdevnic@gmail.com"
+    url: "test-url"
 
 # A chart can be either an 'application' or a 'library' chart.
 #
