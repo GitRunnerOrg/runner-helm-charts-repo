@@ -3,8 +3,6 @@ name: mychart-2
 description: A Helm chart for Kubernetes
 maintainers:
   - name: RjDev
-    #email: rjdevnic@gmail.com
-    #url: https://github.com/RjDev
 type: application
 version: 0.2.0
 appVersion: 1.17.0
