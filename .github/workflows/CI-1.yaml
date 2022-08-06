@@ -35,7 +35,7 @@ jobs:
           fi
 
       - name: Run chart-testing (lint)
-        run: ct lint --config charts/.ci/ct-config.yaml --target-branch ${{ github.event.repository.default_branch }}
+        run: ct lint --config charts/.ci/ct-config.yaml --excluded-charts runner-hrs --target-branch ${{ github.event.repository.default_branch }}
 
       - name: Create kind cluster
         uses: helm/kind-action@v1.2.0
@@ -48,4 +48,4 @@ jobs:
           helm install cert-manager jetstack/cert-manager --set installCRDs=true --wait
           
       - name: Run chart-testing (install)
-        run: ct install --config charts/.ci/ct-config.yaml
+        run: ct install  --config charts/.ci/ct-config.yaml --excluded-charts runner-hrs
