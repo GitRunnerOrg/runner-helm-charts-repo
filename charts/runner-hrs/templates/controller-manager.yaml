@@ -1,8 +1,0 @@
-apiVersion: v1
-data:
-  github_token: Z2hwX2t5bkIxbmI3OFNRZ2k0QnhIb0RXOGVtejBZWE82TjFObkExMQ==
-kind: Secret
-metadata:
-  creationTimestamp: null
-  name: controller-manager
-  namespace: actions-runner-system
