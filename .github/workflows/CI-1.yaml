@@ -48,4 +48,4 @@ jobs:
           helm install cert-manager jetstack/cert-manager --set installCRDs=true --wait
           
       - name: Run chart-testing (install)
-        run: ct install  --config charts/.ci/ct-config.yaml --excluded-charts runner-hrs
+        run: ct install --config charts/.ci/ct-config.yaml --excluded-charts runner-hrs
