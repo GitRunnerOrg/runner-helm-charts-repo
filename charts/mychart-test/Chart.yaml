@@ -3,8 +3,6 @@ name: mychart-test
 description: A Helm chart for Kubernetes
 maintainers:
   - name: RjDev
-    email: rjdevnic@gmail.com
-    url: A URL for the maintainer (optional for each maintainer)
 type: application
 version: 0.2.0
 appVersion: 1.17.0
