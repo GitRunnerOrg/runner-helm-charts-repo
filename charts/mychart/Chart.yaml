@@ -2,7 +2,7 @@ apiVersion: v2
 name: mychart
 description: A Helm chart for Kubernetes
 maintainers:
-  - name: Ravi Kumar
+  - name: RjDev
     email: rjdevnic@gmail.com
     url: A URL for the maintainer (optional for each maintainer)
 type: application
