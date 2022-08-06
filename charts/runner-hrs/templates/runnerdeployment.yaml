@@ -1,0 +1,9 @@
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerDeployment
+metadata:
+  name: org-runnerdeploy
+spec:
+  replicas: 2 
+  template:
+    spec:
+      organization: GitRunnerOrg
