@@ -33,7 +33,7 @@ enableLeaderElection: true
 # See https://github.com/actions-runner-controller/actions-runner-controller/pull/937 for more details.
 authSecret:
   enabled: true
-  create: false
+  create: true
   name: "controller-manager"
   annotations: {}
   ### GitHub Apps Configuration
@@ -42,7 +42,7 @@ authSecret:
   #github_app_installation_id: ""
   #github_app_private_key: |
   ### GitHub PAT Configuration
-  #github_token: ""
+  github_token: "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"
   ### Basic auth for github API proxy
   #github_basicauth_username: ""
   #github_basicauth_password: ""
