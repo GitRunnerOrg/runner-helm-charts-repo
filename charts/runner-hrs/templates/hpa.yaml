@@ -1,7 +1,7 @@
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: HorizontalRunnerAutoscaler
 metadata:
-  name: runners-HorizontalRunnerAutoscaler
+  name: runnerautoscale
   namespace: actions-runner-system
 spec:
   scaleDownDelaySecondsAfterScaleOut: 300
