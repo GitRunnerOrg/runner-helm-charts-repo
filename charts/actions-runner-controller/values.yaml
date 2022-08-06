@@ -230,11 +230,11 @@ githubWebhookServer:
     type: NodePort
     annotations: {}
     ports:
-      - port: 30123
+      - port: 80
         targetPort: http
         protocol: TCP
         name: http
-        #nodePort: someFixedPortForUseWithTerraformCdkCfnEtc
+        nodePort: 30123
   ingress:
     enabled: false
     ingressClassName: ""
