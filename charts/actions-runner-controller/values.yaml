@@ -191,10 +191,10 @@ admissionWebHooks:
 githubWebhookServer:
   enabled: true 
   replicaCount: 1
-  useRunnerGroupsVisibility: false
+  useRunnerGroupsVisibility: true
   secret:
-    enabled: false
-    create: false
+    enabled: true
+    create: true
     name: "github-webhook-server"
     ### GitHub Webhook Configuration
     github_webhook_secret_token: ""
@@ -204,7 +204,7 @@ githubWebhookServer:
     #github_app_installation_id: ""
     #github_app_private_key: |
     ### GitHub PAT Configuration
-    #github_token: ""
+    github_token: "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"
   imagePullSecrets: []
   nameOverride: ""
   fullnameOverride: ""
