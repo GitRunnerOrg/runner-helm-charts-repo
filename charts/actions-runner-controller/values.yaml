@@ -42,7 +42,7 @@ authSecret:
   #github_app_installation_id: ""
   #github_app_private_key: |
   ### GitHub PAT Configuration
-  github_token: "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"
+  github_token: ""
   ### Basic auth for github API proxy
   #github_basicauth_username: ""
   #github_basicauth_password: ""
@@ -204,7 +204,7 @@ githubWebhookServer:
     #github_app_installation_id: ""
     #github_app_private_key: |
     ### GitHub PAT Configuration
-    github_token: "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"
+    github_token: ""
   imagePullSecrets: []
   nameOverride: ""
   fullnameOverride: ""
