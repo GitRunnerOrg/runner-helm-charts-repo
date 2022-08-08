@@ -33,7 +33,7 @@ enableLeaderElection: true
 # See https://github.com/actions-runner-controller/actions-runner-controller/pull/937 for more details.
 authSecret:
   enabled: true
-  create: true
+  create: false
   name: "controller-manager"
   annotations: {}
   ### GitHub Apps Configuration
@@ -42,7 +42,7 @@ authSecret:
   #github_app_installation_id: ""
   #github_app_private_key: |
   ### GitHub PAT Configuration
-  github_token: "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"
+  #github_token: ""
   ### Basic auth for github API proxy
   #github_basicauth_username: ""
   #github_basicauth_password: ""
@@ -189,12 +189,12 @@ admissionWebHooks:
 #hostNetwork: true
 
 githubWebhookServer:
-  enabled: true 
+  enabled: true
   replicaCount: 1
-  useRunnerGroupsVisibility: true
+  useRunnerGroupsVisibility: false
   secret:
-    enabled: true
-    create: true
+    enabled: false
+    create: false
     name: "github-webhook-server"
     ### GitHub Webhook Configuration
     github_webhook_secret_token: ""
@@ -204,7 +204,7 @@ githubWebhookServer:
     #github_app_installation_id: ""
     #github_app_private_key: |
     ### GitHub PAT Configuration
-    github_token: "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"
+    #github_token: ""
   imagePullSecrets: []
   nameOverride: ""
   fullnameOverride: ""
@@ -227,7 +227,7 @@ githubWebhookServer:
   affinity: {}
   priorityClassName: ""
   service:
-    type: NodePort
+    type: ClusterIP
     annotations: {}
     ports:
       - port: 80
