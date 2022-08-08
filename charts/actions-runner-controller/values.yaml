@@ -227,7 +227,7 @@ githubWebhookServer:
   affinity: {}
   priorityClassName: ""
   service:
-    type: ClusterIP
+    type: NodePort
     annotations: {}
     ports:
       - port: 80
