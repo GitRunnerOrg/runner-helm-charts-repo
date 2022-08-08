@@ -4,7 +4,7 @@ description: >-
   A Kubernetes controller that operates self-hosted runners for GitHub Actions
   on your Kubernetes cluster.
 type: application
-version: 0.28.2
+version: 0.29.2
 appVersion: 0.25.2
 home: 'https://github.com/actions-runner-controller/actions-runner-controller'
 sources:
