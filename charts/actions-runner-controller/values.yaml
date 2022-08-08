@@ -194,7 +194,7 @@ githubWebhookServer:
   useRunnerGroupsVisibility: false
   secret:
     enabled: false
-    create: false
+    create: true
     name: "github-webhook-server"
     ### GitHub Webhook Configuration
     github_webhook_secret_token: ""
