@@ -42,7 +42,7 @@ authSecret:
   #github_app_installation_id: ""
   #github_app_private_key: |
   ### GitHub PAT Configuration
-  github_token: "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"
+  github_token: "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"
   ### Basic auth for github API proxy
   #github_basicauth_username: ""
   #github_basicauth_password: ""
@@ -189,7 +189,7 @@ admissionWebHooks:
 #hostNetwork: true
 
 githubWebhookServer:
-  enabled: true
+  enabled: false
   replicaCount: 1
   useRunnerGroupsVisibility: false
   secret:
