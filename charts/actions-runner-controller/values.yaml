@@ -194,7 +194,7 @@ githubWebhookServer:
   useRunnerGroupsVisibility: false
   secret:
     enabled: false
-    create: true
+    create: false
     name: "github-webhook-server"
     ### GitHub Webhook Configuration
     github_webhook_secret_token: ""
@@ -204,7 +204,7 @@ githubWebhookServer:
     #github_app_installation_id: ""
     #github_app_private_key: |
     ### GitHub PAT Configuration
-    github_token: "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"
+    #github_token: "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"
   imagePullSecrets: []
   nameOverride: ""
   fullnameOverride: ""
