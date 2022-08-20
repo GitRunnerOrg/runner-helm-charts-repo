@@ -1,0 +1,1 @@
+cron job is set to get the token refreshed for ecr repo
