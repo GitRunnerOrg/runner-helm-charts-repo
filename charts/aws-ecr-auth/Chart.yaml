@@ -1,5 +1,5 @@
 apiVersion: v2
-name: aws_ecr_auth
+name: aws-ecr-auth 
 description: A Helm chart for Kubernetes cron job for aws_ecr_auth
 maintainers:
   - name: RjDev
