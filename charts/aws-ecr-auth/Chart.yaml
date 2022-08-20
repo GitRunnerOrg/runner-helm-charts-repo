@@ -1,0 +1,8 @@
+apiVersion: v2
+name: aws-ecr-auth 
+description: A Helm chart for Kubernetes cron job for aws_ecr_auth
+maintainers:
+  - name: RjDev
+type: application
+version: 0.2.0
+appVersion: "1.17.0"

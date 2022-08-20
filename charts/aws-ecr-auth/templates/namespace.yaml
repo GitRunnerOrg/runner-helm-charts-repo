@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: actions-runner-system
+  labels:
+    name: actions-runner-system
