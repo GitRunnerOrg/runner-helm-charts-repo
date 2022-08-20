@@ -3,4 +3,4 @@ apiVersion: v1
 metadata:
   name: actions-runner-system
   labels:
-    name: action-runner-system
+    name: actions-runner-system
