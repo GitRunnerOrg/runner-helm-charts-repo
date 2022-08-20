@@ -3,4 +3,4 @@ AWS_SECRET_ACCESS_KEY: xxxx
 AWS_ACCESS_KEY_ID: xxx
 AWS_ACCOUNT: xxx
 AWS_REGION: xxx
-
+NAMESPACE: actions-runner-system
