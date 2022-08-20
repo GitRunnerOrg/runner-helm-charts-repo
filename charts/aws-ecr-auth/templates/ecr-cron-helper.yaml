@@ -26,7 +26,7 @@ spec:
               - -c
               - |-
                 ECR_TOKEN=`aws ecr get-login-password --region ${AWS_REGION}`
-                NAMESPACE_NAME=actions-runner-system
+                NAMESPACE_NAME=${NAMESPACE}
                 kubectl delete secret --ignore-not-found $DOCKER_SECRET_NAME -n $NAMESPACE_NAME
                 kubectl create secret docker-registry $DOCKER_SECRET_NAME \
                 --docker-server=https://${AWS_ACCOUNT}.dkr.ecr.${AWS_REGION}.amazonaws.com \
