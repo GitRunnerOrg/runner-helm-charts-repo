@@ -1,9 +1,10 @@
+{{- if .Values.runnerandHrsDeployment.enabled }}
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: RunnerDeployment
 metadata:
   name: org-runnerdeploy
-  namespace: actions-runner-system
-  #namespace: {{ .Release.Namespace }}
+  #namespace: actions-runner-system
+  namespace: {{ .Release.Namespace }}
 spec:
   replicas: 2 
   template:
@@ -19,3 +20,4 @@ spec:
           value: "true"
         - name: DISABLE_RUNNER_UPDATE       # Disables automatic runner updates
           value: "true" 
+{{- end }}

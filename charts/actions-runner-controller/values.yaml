@@ -1,7 +1,10 @@
 # Default values for actions-runner-controller.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
+# enable this value for deploying runner and horizontal runner scaller as part of action runner contorller chart
+runnerandHrsDeployment: 
+  enabled: false
+  
 labels: {}
 
 replicaCount: 1
@@ -50,8 +53,8 @@ authSecret:
 dockerRegistryMirror: ""
 image:
   repository: "summerwind/actions-runner-controller"
-  #actionsRunnerRepositoryAndTag: "summerwind/actions-runner:latest"
-  actionsRunnerRepositoryAndTag: "996393618537.dkr.ecr.us-east-1.amazonaws.com/action-runner-controller:2903a1a"
+  actionsRunnerRepositoryAndTag: "summerwind/actions-runner:latest"
+  #actionsRunnerRepositoryAndTag: "996393618537.dkr.ecr.us-east-1.amazonaws.com/action-runner-controller:2903a1a"
   dindSidecarRepositoryAndTag: "docker:dind"
   pullPolicy: IfNotPresent
   # The default image-pull secrets name for self-hosted runner container.

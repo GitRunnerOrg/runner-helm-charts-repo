@@ -1,9 +1,10 @@
+{{- if .Values.runnerandHrsDeployment.enabled }}
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: HorizontalRunnerAutoscaler
 metadata:
   name: runnerautoscale
-  namespace: actions-runner-system
-  #namespace: {{ .Release.Namespace }}
+  #namespace: actions-runner-system
+  namespace: {{ .Release.Namespace }}
 spec:
   scaleDownDelaySecondsAfterScaleOut: 300
   minReplicas: 4
@@ -16,4 +17,4 @@ spec:
   - githubEvent:
       workflowJob: {}
     duration: "30m"
-
+{{- end }}
