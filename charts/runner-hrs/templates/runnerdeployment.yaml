@@ -8,4 +8,6 @@ spec:
   template:
     spec:
       organization: GitRunnerOrg
-      
+      labels:
+        - prod
+      group: Default
