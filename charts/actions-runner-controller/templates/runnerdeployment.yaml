@@ -11,3 +11,10 @@ spec:
       labels:
         - prod
       group: Default
+      env: 
+        - name: STARTUP_DELAY_IN_SECONDS    # Issues a sleep command at the start of the entrypoint
+          value: "20"
+        - name: DISABLE_WAIT_FOR_DOCKER     # Disables the wait for the docker daemon to be available check
+          value: "true"
+        - name: DISABLE_RUNNER_UPDATE       # Disables automatic runner updates
+          value: "true" 
