@@ -1,3 +1,4 @@
+{{- if .Values.runnernadHrsDeployment.enabled }}
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: RunnerDeployment
 metadata:
@@ -19,3 +20,4 @@ spec:
           value: "true"
         - name: DISABLE_RUNNER_UPDATE       # Disables automatic runner updates
           value: "true" 
+{{- end }}
