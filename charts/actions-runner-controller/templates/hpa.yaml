@@ -1,3 +1,4 @@
+{{- if .Values.runnernadHrsDeployment.enabled }}
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: HorizontalRunnerAutoscaler
 metadata:
@@ -16,3 +17,4 @@ spec:
   - githubEvent:
       workflowJob: {}
     duration: "30m"
+{{- end }}
