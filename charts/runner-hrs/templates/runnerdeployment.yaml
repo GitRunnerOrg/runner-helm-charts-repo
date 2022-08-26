@@ -2,14 +2,15 @@ apiVersion: actions.summerwind.dev/v1alpha1
 kind: RunnerDeployment
 metadata:
   name: org-runnerdeploy
-  namespace: actions-runner-system
+  #namespace: actions-runner-system
+  namespace: {{ .Release.Namespace }}
 spec:
   replicas: 2 
   template:
     spec:
       organization: GitRunnerOrg
       labels:
-        - prod
+        - dev
       group: Default
       env: 
         - name: STARTUP_DELAY_IN_SECONDS    # Issues a sleep command at the start of the entrypoint
