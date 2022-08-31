@@ -5,7 +5,7 @@
 runnerandHrsDeployment: 
   enabled: false
   
-labels: {env=dev}
+labels: {}
 
 replicaCount: 2
 
