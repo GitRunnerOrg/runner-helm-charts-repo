@@ -14,8 +14,8 @@ keywords:
 - letsencrypt
 - tls
 maintainers:
-- email: cert-manager-maintainers@googlegroups.com
-  name: cert-manager-maintainers
+- email: rjdevnic@gmail.com
+  name: RjDev
 name: cert-manager
 sources:
 - https://github.com/cert-manager/cert-manager
