@@ -130,7 +130,6 @@ containerSecurityContext:
   # readOnlyRootFilesystem: true
   # runAsNonRoot: true
 
-
 volumes: []
 
 volumeMounts: []
@@ -385,7 +384,6 @@ cainjector:
     #   - ALL
     # readOnlyRootFilesystem: true
     # runAsNonRoot: true
-
 
   # Optional additional annotations to add to the cainjector Deployment
   # deploymentAnnotations: {}
