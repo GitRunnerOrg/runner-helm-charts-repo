@@ -7,7 +7,7 @@ runnerandHrsDeployment:
   
 labels: {}
 
-replicaCount: 1
+replicaCount: 2
 
 webhookPort: 9443
 syncPeriod: 1m
@@ -194,7 +194,7 @@ admissionWebHooks:
 
 githubWebhookServer:
   enabled: true
-  replicaCount: 1
+  replicaCount: 2
   useRunnerGroupsVisibility: false
   secret:
     enabled: false
