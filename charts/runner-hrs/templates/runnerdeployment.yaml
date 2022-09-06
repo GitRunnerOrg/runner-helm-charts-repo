@@ -11,6 +11,8 @@ spec:
       organization: GitRunnerOrg
       labels:
         - dev
+        - non-prod
+        - stage
       group: Default
       env: 
         - name: STARTUP_DELAY_IN_SECONDS    # Issues a sleep command at the start of the entrypoint
