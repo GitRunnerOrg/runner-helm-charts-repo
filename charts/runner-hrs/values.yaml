@@ -31,8 +31,8 @@ RunnerDeployment:
     - dev
     - non-prod
   runner_group: Default
-  STARTUP_DELAY_IN_SECONDS: "20"
-  DISABLE_WAIT_FOR_DOCKER: "true"
-  DISABLE_RUNNER_UPDATE: "true"
+  STARTUP_DELAY_IN_SECONDS: 20
+  DISABLE_WAIT_FOR_DOCKER: true
+  DISABLE_RUNNER_UPDATE: true
      
     
