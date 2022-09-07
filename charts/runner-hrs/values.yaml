@@ -6,6 +6,7 @@ global:
   deployEnv: dev
   appid: example-123
   lob: example-lob
+  platform: eks
  
 ## values for the runner autoscaler### 
 HorizontalRunnerAutoscaler:
