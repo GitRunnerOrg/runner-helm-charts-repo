@@ -6,7 +6,9 @@ runnerandHrsDeployment:
   enabled: false
   
 labels: {}
-
+  appid: example-appid
+  env: dev
+  
 replicaCount: 2
 
 webhookPort: 9443
