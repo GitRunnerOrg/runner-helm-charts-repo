@@ -5,7 +5,7 @@
 runnerandHrsDeployment: 
   enabled: false
   
-labels: {}
+labels: 
   appid: example-appid
   env: dev
   
