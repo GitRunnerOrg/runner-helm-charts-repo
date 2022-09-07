@@ -11,6 +11,9 @@ metadata:
 spec:
   replicas: {{ .Values.RunnerDeployment.replicas }}
   template:
+  metadata:
+    labels:
+      env: {{ .Values.global.env }}
     spec:
       # this will be chnage if using github enterprise 
       organization: {{ .Values.RunnerDeployment.ghe_org }}
