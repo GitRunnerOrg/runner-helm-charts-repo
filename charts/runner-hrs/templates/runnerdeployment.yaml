@@ -18,8 +18,8 @@ spec:
       group: {{ .Values.RunnerDeployment.runner_group }}
       env: 
         - name: STARTUP_DELAY_IN_SECONDS    # Issues a sleep command at the start of the entrypoint
-          value: {{ .Values.RunnerDeployment.STARTUP_DELAY_IN_SECONDS }}
+          value: {{ .Values.RunnerDeployment.STARTUP_DELAY_IN_SECONDS | quote }}
         - name: DISABLE_WAIT_FOR_DOCKER     # Disables the wait for the docker daemon to be available check
-          value: {{ .Values.RunnerDeployment.DISABLE_WAIT_FOR_DOCKER }}
+          value: {{ .Values.RunnerDeployment.DISABLE_WAIT_FOR_DOCKER | quote }}
         - name: DISABLE_RUNNER_UPDATE       # Disables automatic runner updates
-          value: {{ .Values.RunnerDeployment.DISABLE_RUNNER_UPDATE }} 
+          value: {{ .Values.RunnerDeployment.DISABLE_RUNNER_UPDATE | quote }} 
