@@ -3,7 +3,6 @@
 global:
   namespace: actions-runner-system
   env: dev
-  deployEnv: dev
   appid: example-123
   lob: example-lob
   platform: eks
