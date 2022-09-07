@@ -8,6 +8,9 @@ runnerandHrsDeployment:
 labels: 
   appid: example-appid
   env: dev
+  appid: example-123
+  lob: example-lob
+  platform: eks
   
 replicaCount: 2
 
@@ -90,7 +93,12 @@ serviceAccount:
 
 podAnnotations: {}
 
-podLabels: {}
+podLabels: 
+  appid: example-appid
+  env: dev
+  appid: example-123
+  lob: example-lob
+  platform: eks  
 
 podSecurityContext:
   {}
@@ -223,7 +231,12 @@ githubWebhookServer:
     # If not set and create is true, a name is generated using the fullname template
     name: ""
   podAnnotations: {}
-  podLabels: {}
+  podLabels: 
+    appid: example-appid
+    env: dev
+    appid: example-123
+    lob: example-lob
+    platform: eks
   podSecurityContext: {}
   # fsGroup: 2000
   securityContext: {}
