@@ -1,19 +1,23 @@
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: HorizontalRunnerAutoscaler
 metadata:
-  name: runnerautoscale
-  namespace: actions-runner-system
-  #namespace: {{ .Release.Namespace }}
+  name: {{ .Values.HorizontalRunnerAutoscaler.name }}
+  namespace: {{ .Values.global.namespace }}
+  labels:
+    env: {{ .Values.global.env }}
+    platform: {{ .Values.global.platform }}
+    appid: {{ .Values.global.appid }}
+    lob: {{ .Values.global.lob }}
 spec:
-  scaleDownDelaySecondsAfterScaleOut: 300
-  minReplicas: 4
-  maxReplicas: 10
+  scaleDownDelaySecondsAfterScaleOut: {{ .Values.HorizontalRunnerAutoscaler.specs.scaleDownDelaySecondsAfterScaleOut }}
+  minReplicas: {{ .Values.HorizontalRunnerAutoscaler.specs.minReplicas }}
+  maxReplicas: {{ .Values.HorizontalRunnerAutoscaler.specs.maxReplicas }}
   scaleTargetRef:
-    name: org-runnerdeploy
+    name: {{ .Values.HorizontalRunnerAutoscaler.specs.scaleTargetRefName }}
     # Uncomment the below in case the target is not RunnerDeployment but RunnerSet
     #kind: RunnerSet
   scaleUpTriggers:
   - githubEvent:
       workflowJob: {}
-    duration: "30m"
+    duration: {{ .Values.HorizontalRunnerAutoscaler.specs.github_event_duration }}
 
