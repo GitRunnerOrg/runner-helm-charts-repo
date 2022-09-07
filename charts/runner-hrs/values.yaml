@@ -20,17 +20,18 @@ HorizontalRunnerAutoscaler:
     github_event_duration: 30m
  
  ## values for the runner deployment### 
- RunnerDeployment:
-   name: org-runnerdeploy
-   replicas: 2
-   ghe_org: GitRunnerOrg
-   #ghe_enterprise: 
-   #ghe:repo: 
-   runner_labels: 
-     -  dev
-   runner_group: Default
-   STARTUP_DELAY_IN_SECONDS: "20"
-   DISABLE_WAIT_FOR_DOCKER: "true"
-   DISABLE_RUNNER_UPDATE: "true"
+RunnerDeployment:
+  name: org-runnerdeploy
+  replicas: 2
+  ghe_org: GitRunnerOrg
+  #ghe_enterprise: 
+  #ghe:repo: 
+  runner_labels: 
+    - dev
+    - non-prod
+  runner_group: Default
+  STARTUP_DELAY_IN_SECONDS: "20"
+  DISABLE_WAIT_FOR_DOCKER: "true"
+  DISABLE_RUNNER_UPDATE: "true"
      
     
