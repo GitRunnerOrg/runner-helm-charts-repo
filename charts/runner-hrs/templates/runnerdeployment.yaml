@@ -1,23 +1,26 @@
 apiVersion: actions.summerwind.dev/v1alpha1
 kind: RunnerDeployment
 metadata:
-  name: org-runnerdeploy
-  namespace: actions-runner-system
-  #namespace: {{ .Release.Namespace }}
+  name: {{ .Values.RunnerDeployment.name }}
+  namespace: {{ .Values.global.namespace }}
+  labels:
+    env: {{ .Values.global.env }}
+    platform: {{ .Values.global.platform }}
+    appid: {{ .Values.global.appid }}
+    lob: {{ .Values.global.lob }}
 spec:
-  replicas: 2 
+  replicas: {{ .Values.RunnerDeployment.replicas }}
   template:
     spec:
-      organization: GitRunnerOrg
+      # this will be chnage if using github enterprise 
+      organization: {{ .Values.RunnerDeployment.ghe_org }}
       labels:
-        - dev
-        - non-prod
-        - stage
-      group: Default
+        {{- include ".Values.RunnerDeployment.runner_labels" . | nindent 4 }}
+      group: {{ .Values.RunnerDeployment.runner_group }}
       env: 
         - name: STARTUP_DELAY_IN_SECONDS    # Issues a sleep command at the start of the entrypoint
-          value: "20"
+          value: {{ .Values.RunnerDeployment.STARTUP_DELAY_IN_SECONDS }}
         - name: DISABLE_WAIT_FOR_DOCKER     # Disables the wait for the docker daemon to be available check
-          value: "true"
+          value: {{ .Values.RunnerDeployment.DISABLE_WAIT_FOR_DOCKER }}
         - name: DISABLE_RUNNER_UPDATE       # Disables automatic runner updates
-          value: "true" 
+          value: {{ .Values.RunnerDeployment.DISABLE_RUNNER_UPDATE }} 
