@@ -26,7 +26,7 @@ HorizontalRunnerAutoscaler:
    ghe_org: GitRunnerOrg
    #ghe_enterprise: 
    #ghe:repo: 
-   runner_labels: {}
+   runner_labels: 
      -  dev
    runner_group: Default
    STARTUP_DELAY_IN_SECONDS: "20"
