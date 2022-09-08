@@ -25,7 +25,7 @@ RunnerDeployment:
   replicas: 2
   ghe_org: GitRunnerOrg
   #ghe_enterprise: 
-  #ghe:repo: 
+  #ghe_repo: 
   runner_labels: 
     - dev
     - non-prod
