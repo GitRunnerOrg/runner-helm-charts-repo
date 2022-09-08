@@ -2,7 +2,8 @@ apiVersion: actions.summerwind.dev/v1alpha1
 kind: RunnerDeployment
 metadata:
   name: {{ .Values.RunnerDeployment.name }}
-  namespace: {{ .Values.global.namespace }}
+  #namespace: {{ .Values.global.namespace }}
+  namespace: {{ .Release.Namespace }}
   labels:
     env: {{ .Values.global.env }}
     platform: {{ .Values.global.platform }}
@@ -14,7 +15,7 @@ spec:
     spec:
       # this will be chnage if using github enterprise 
       organization: {{ .Values.RunnerDeployment.ghe_org }}
-      labels: {{ .Values.RunnerDeployment.runner_labels }}
+      labels: {{ .Values.RunnerDeployment.runner_labels | nindent 4 }}
       group: {{ .Values.RunnerDeployment.runner_group }}
       env: 
         - name: STARTUP_DELAY_IN_SECONDS    # Issues a sleep command at the start of the entrypoint

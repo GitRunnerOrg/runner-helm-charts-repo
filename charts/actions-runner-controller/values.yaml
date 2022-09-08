@@ -6,7 +6,6 @@ runnerandHrsDeployment:
   enabled: false
   
 labels: 
-  appid: example-appid
   env: dev
   appid: example-123
   lob: example-lob
@@ -94,7 +93,6 @@ serviceAccount:
 podAnnotations: {}
 
 podLabels: 
-  appid: example-appid
   env: dev
   appid: example-123
   lob: example-lob
@@ -232,7 +230,6 @@ githubWebhookServer:
     name: ""
   podAnnotations: {}
   podLabels: 
-    appid: example-appid
     env: dev
     appid: example-123
     lob: example-lob

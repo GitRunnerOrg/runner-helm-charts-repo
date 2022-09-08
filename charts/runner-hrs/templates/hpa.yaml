@@ -2,7 +2,8 @@ apiVersion: actions.summerwind.dev/v1alpha1
 kind: HorizontalRunnerAutoscaler
 metadata:
   name: {{ .Values.HorizontalRunnerAutoscaler.name }}
-  namespace: {{ .Values.global.namespace }}
+  #namespace: {{ .Values.global.namespace }}
+  namespace: {{ .Release.Namespace }}
   labels:
     env: {{ .Values.global.env }}
     platform: {{ .Values.global.platform }}
