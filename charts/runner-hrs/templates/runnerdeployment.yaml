@@ -15,10 +15,12 @@ spec:
     spec:
       # this will be chnage if using github enterprise 
       organization: {{ .Values.RunnerDeployment.ghe_org }}
-      {{- with .Values.RunnerDeployment.runner_labels }}
+      #{{- with .Values.RunnerDeployment.runner_labels }}
       labels: 
-        {{- toYaml . | nindent 8 }}
-      {{- end }}
+        - dev
+        - security
+        #{{- toYaml . | nindent 8 }}
+      #{{- end }}
       group: {{ .Values.RunnerDeployment.runner_group }}
       env: 
         - name: STARTUP_DELAY_IN_SECONDS    # Issues a sleep command at the start of the entrypoint
