@@ -17,8 +17,6 @@ spec:
       organization: {{ .Values.RunnerDeployment.ghe_org }}
       #{{- with .Values.RunnerDeployment.runner_labels }}
       labels: 
-        - dev
-        - security
         #{{- toYaml . | nindent 8 }}
       #{{- end }}
       group: {{ .Values.RunnerDeployment.runner_group }}
