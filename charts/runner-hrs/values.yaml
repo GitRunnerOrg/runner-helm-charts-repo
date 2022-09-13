@@ -26,9 +26,7 @@ RunnerDeployment:
   ghe_org: GitRunnerOrg
   #ghe_enterprise: 
   #ghe_repo: 
-  runner_labels: 
-    - dev
-    - non-prod
+  runner_labels: ["dev", "non-prod"]
   runner_group: Default
   STARTUP_DELAY_IN_SECONDS: 20
   DISABLE_WAIT_FOR_DOCKER: true
