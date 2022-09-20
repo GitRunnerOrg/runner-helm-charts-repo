@@ -1,0 +1,74 @@
+apiVersion: v1
+entries:
+  actions-runner-controller:
+  - apiVersion: v2
+    appVersion: 0.25.2
+    created: "2022-09-20T11:24:27.665187002Z"
+    description: A Kubernetes controller that operates self-hosted runners for GitHub
+      Actions on your Kubernetes cluster.
+    digest: 812791d26c792e1915eacadca7ee287b1654395747bff61ff9ea74a161cb792d
+    home: https://github.com/actions-runner-controller/actions-runner-controller
+    maintainers:
+    - name: RjDev
+      url: https://github.com/actions-runner-controller
+    name: actions-runner-controller
+    sources:
+    - https://github.com/actions-runner-controller/actions-runner-controller
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/actions-runner-controller-0.37.2.tgz
+    version: 0.37.2
+  aws-ecr-auth:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2022-09-20T11:24:27.66547252Z"
+    description: A Helm chart for Kubernetes cron job for aws_ecr_auth
+    digest: f1cfc69df435d30695f52e0e5017f19cb693b474eb05845d1139df1ad437f92a
+    maintainers:
+    - name: RjDev
+    name: aws-ecr-auth
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/aws-ecr-auth-0.2.0.tgz
+    version: 0.2.0
+  cert-manager:
+  - annotations:
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v1
+    appVersion: v1.8.0
+    created: "2022-09-20T11:24:27.669196151Z"
+    description: A Helm chart for cert-manager
+    digest: 7187981496e310f282bff805ce823fa542122b1856f5fe3c459fd644684f7d92
+    home: https://github.com/cert-manager/cert-manager
+    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    maintainers:
+    - email: rjdevnic@gmail.com
+      name: RjDev
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/cert-manager-v1.8.0.tgz
+    version: v1.8.0
+  runner-hrs:
+  - apiVersion: v2
+    appVersion: 1.20.0
+    created: "2022-09-20T11:24:27.669535272Z"
+    description: A Helm chart to deploy runner and hrs
+    digest: 060bff027621b52dba9b6dc113f4e04fa7f7570a1bc44faa0fbf596024325062
+    maintainers:
+    - name: RjDev
+    name: runner-hrs
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/runner-hrs-0.31.0.tgz
+    version: 0.31.0
+generated: "2022-09-20T11:24:27.655108877Z"
