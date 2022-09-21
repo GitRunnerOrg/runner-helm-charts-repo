@@ -10,15 +10,21 @@ metadata:
     appid: {{ .Values.global.appid }}
     lob: {{ .Values.global.lob }}
 spec:
-  scaleDownDelaySecondsAfterScaleOut: {{ .Values.HorizontalRunnerAutoscaler.specs.scaleDownDelaySecondsAfterScaleOut }}
+  #scaleDownDelaySecondsAfterScaleOut: {{ .Values.HorizontalRunnerAutoscaler.specs.scaleDownDelaySecondsAfterScaleOut }}
   minReplicas: {{ .Values.HorizontalRunnerAutoscaler.specs.minReplicas }}
   maxReplicas: {{ .Values.HorizontalRunnerAutoscaler.specs.maxReplicas }}
   scaleTargetRef:
     name: {{ .Values.HorizontalRunnerAutoscaler.specs.scaleTargetRefName }}
     # Uncomment the below in case the target is not RunnerDeployment but RunnerSet
-    #kind: RunnerSet
-  scaleUpTriggers:
-  - githubEvent:
-      workflowJob: {}
-    duration: {{ .Values.HorizontalRunnerAutoscaler.specs.github_event_duration }}
+    kind: RunnerDeployment    
+  metrics:
+  - type: PercentageRunnersBusy
+    scaleUpThreshold: '0.75'    # The percentage of busy runners at which the number of desired runners are re-evaluated to scale up
+    scaleDownThreshold: '0.3'   # The percentage of busy runners at which the number of desired runners are re-evaluated to scale down
+    scaleUpFactor: '1.4'        # The scale up multiplier factor applied to desired count
+    scaleDownFactor: '0.7'      # The scale down multiplier factor applied to desired count
+#  scaleUpTriggers:
+#  - githubEvent:
+#     workflowJob: {}
+#   duration: {{ .Values.HorizontalRunnerAutoscaler.specs.github_event_duration }}
 
