@@ -27,14 +27,14 @@ spec:
           value: {{ .Values.RunnerDeployment.DISABLE_WAIT_FOR_DOCKER | quote }}
         - name: DISABLE_RUNNER_UPDATE       # Disables automatic runner updates
           value: {{ .Values.RunnerDeployment.DISABLE_RUNNER_UPDATE | quote }} 
-      volumeMounts: 
-        - mountPath: /etc/ssl/certs
-          name: certkey
-      volumes: 
-        - name: certkey
-          csi: 
-            driver: secrets-store.csi.k8s.io
-            readOnly: true
-            volumeAttributes:
-              secretProviderClass: "aws-secrets"
+#      volumeMounts: 
+#       - mountPath: /etc/ssl/certs
+#         name: certkey
+#     volumes: 
+#       - name: certkey
+#         csi: 
+#           driver: secrets-store.csi.k8s.io
+#           readOnly: true
+#           volumeAttributes:
+#             secretProviderClass: "aws-secrets"
         
