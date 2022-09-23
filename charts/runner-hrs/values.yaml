@@ -6,7 +6,10 @@ global:
   appid: example-123
   lob: example-lob
   platform: eks
- 
+## values for configMap
+
+configMap
+  name: cyberarkcm
 ## values for the runner autoscaler### 
 HorizontalRunnerAutoscaler:
   name: runnerautoscale
