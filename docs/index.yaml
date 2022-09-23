@@ -3,10 +3,10 @@ entries:
   actions-runner-controller:
   - apiVersion: v2
     appVersion: 0.25.2
-    created: "2022-09-23T10:11:54.976096841Z"
+    created: "2022-09-23T10:50:12.681665234Z"
     description: A Kubernetes controller that operates self-hosted runners for GitHub
       Actions on your Kubernetes cluster.
-    digest: 58cc36a7843dce36d29df91bd5dc633e374160f5b2fb19c1e25d7a4a14e808ac
+    digest: 02d527e47fa6a91c54f5157b08d16783c7438861a9e3d9b788454eded184153e
     home: https://github.com/actions-runner-controller/actions-runner-controller
     maintainers:
     - name: RjDev
@@ -21,9 +21,9 @@ entries:
   aws-ecr-auth:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-09-23T10:11:54.976458846Z"
+    created: "2022-09-23T10:50:12.681943138Z"
     description: A Helm chart for Kubernetes cron job for aws_ecr_auth
-    digest: a39360cdd7c262bc4fd9d1e3e8b54e3c3846893564d749bfd84a9fc128394897
+    digest: 438cc89a0b096ab2152dd9eabec7aff24da71404a852f72965a0d2436bf6cc1e
     maintainers:
     - name: RjDev
     name: aws-ecr-auth
@@ -39,9 +39,9 @@ entries:
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v1
     appVersion: v1.8.0
-    created: "2022-09-23T10:11:54.979941898Z"
+    created: "2022-09-23T10:50:12.685390288Z"
     description: A Helm chart for cert-manager
-    digest: 9ea4dc615803d18b5311bbcb120166831c86109eb47f0b1628d6365e0faee850
+    digest: 106e940021002cb425eeb926ee60a3cc723864fe59cf9b7cc644ce1c420e0d44
     home: https://github.com/cert-manager/cert-manager
     icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
     keywords:
@@ -61,9 +61,9 @@ entries:
   runner-hrs:
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-23T10:11:54.981907827Z"
+    created: "2022-09-23T10:50:12.687091712Z"
     description: A Helm chart to deploy runner and hrs
-    digest: da87fe74a299e92350fa714bd515159eb88c320288167a35f4e27b849855a6d2
+    digest: 1267841bb4c138ec0ee566e7bcd317febe5a68fb0387f381129145de8b24319f
     maintainers:
     - name: RjDev
     name: runner-hrs
@@ -73,7 +73,7 @@ entries:
     version: 0.37.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-23T10:11:54.981574322Z"
+    created: "2022-09-23T10:50:12.686819708Z"
     description: A Helm chart to deploy runner and hrs
     digest: b738b06dc0ba4c7bb4de17d0a873abc8c2d94e9ba40602b2ae4602226016b85d
     maintainers:
@@ -85,7 +85,7 @@ entries:
     version: 0.36.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-23T10:11:54.981248017Z"
+    created: "2022-09-23T10:50:12.686540504Z"
     description: A Helm chart to deploy runner and hrs
     digest: 3d4a9742514b4f649bbf229a6f9746562048b38a8a17933b76f83d10f318384f
     maintainers:
@@ -97,7 +97,7 @@ entries:
     version: 0.35.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-23T10:11:54.980941512Z"
+    created: "2022-09-23T10:50:12.6862509Z"
     description: A Helm chart to deploy runner and hrs
     digest: f9cce584a3127ff72004626076f82e8c9c7942b0e8141a4701936c6e623bcf4c
     maintainers:
@@ -109,7 +109,7 @@ entries:
     version: 0.34.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-23T10:11:54.980615308Z"
+    created: "2022-09-23T10:50:12.685969596Z"
     description: A Helm chart to deploy runner and hrs
     digest: e9bd861f6261879118886ec7286b606fb06df18084eafd8e522cc8691d858bfa
     maintainers:
@@ -121,7 +121,7 @@ entries:
     version: 0.33.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-23T10:11:54.980297603Z"
+    created: "2022-09-23T10:50:12.685693792Z"
     description: A Helm chart to deploy runner and hrs
     digest: 060bff027621b52dba9b6dc113f4e04fa7f7570a1bc44faa0fbf596024325062
     maintainers:
@@ -131,4 +131,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/runner-hrs-0.31.0.tgz
     version: 0.31.0
-generated: "2022-09-23T10:11:54.965428982Z"
+generated: "2022-09-23T10:50:12.671481087Z"
