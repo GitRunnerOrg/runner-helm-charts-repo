@@ -3,10 +3,10 @@ entries:
   actions-runner-controller:
   - apiVersion: v2
     appVersion: 0.25.2
-    created: "2022-09-22T11:44:46.477685367Z"
+    created: "2022-09-23T10:11:38.065265584Z"
     description: A Kubernetes controller that operates self-hosted runners for GitHub
       Actions on your Kubernetes cluster.
-    digest: 51b6bc05abaf584f0ffc21168d9ba083edb6e0ddc50b3fe33059ff0d131cd0b7
+    digest: 24ebc6b4b5ccdbfee8c999c4c4917be18ab66f5b4a1d4f10610ab889e9964a34
     home: https://github.com/actions-runner-controller/actions-runner-controller
     maintainers:
     - name: RjDev
@@ -21,9 +21,9 @@ entries:
   aws-ecr-auth:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-09-22T11:44:46.478000269Z"
+    created: "2022-09-23T10:11:38.065616793Z"
     description: A Helm chart for Kubernetes cron job for aws_ecr_auth
-    digest: b37a9002504c15d13f503123318ac605ed4eebc0bb3ce34cce0bf742ecaddeb0
+    digest: 249b8fe6718ef4ebed422b02110903a502c93da5f87acb97004c61f39c012a95
     maintainers:
     - name: RjDev
     name: aws-ecr-auth
@@ -39,9 +39,9 @@ entries:
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v1
     appVersion: v1.8.0
-    created: "2022-09-22T11:44:46.482213798Z"
+    created: "2022-09-23T10:11:38.070036008Z"
     description: A Helm chart for cert-manager
-    digest: 0b30ee8c22d441c71374bdb841cb736f435ebb8f92dbdd9a50ec5d18bc8cdf2a
+    digest: ef19235edd75c4e13d5c621a0fcda9ddd09968f5b82daf75055acc475d97d6a0
     home: https://github.com/cert-manager/cert-manager
     icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
     keywords:
@@ -61,9 +61,9 @@ entries:
   runner-hrs:
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-22T11:44:46.484270113Z"
+    created: "2022-09-23T10:11:38.071756053Z"
     description: A Helm chart to deploy runner and hrs
-    digest: b738b06dc0ba4c7bb4de17d0a873abc8c2d94e9ba40602b2ae4602226016b85d
+    digest: 7795581acc3e15deedeec626e09cba0bb9ed23551b40853610f5f808d8508997
     maintainers:
     - name: RjDev
     name: runner-hrs
@@ -73,7 +73,7 @@ entries:
     version: 0.36.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-22T11:44:46.48389441Z"
+    created: "2022-09-23T10:11:38.071411044Z"
     description: A Helm chart to deploy runner and hrs
     digest: 3d4a9742514b4f649bbf229a6f9746562048b38a8a17933b76f83d10f318384f
     maintainers:
@@ -85,7 +85,7 @@ entries:
     version: 0.35.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-22T11:44:46.483489007Z"
+    created: "2022-09-23T10:11:38.071068535Z"
     description: A Helm chart to deploy runner and hrs
     digest: f9cce584a3127ff72004626076f82e8c9c7942b0e8141a4701936c6e623bcf4c
     maintainers:
@@ -97,7 +97,7 @@ entries:
     version: 0.34.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-22T11:44:46.483095804Z"
+    created: "2022-09-23T10:11:38.070731926Z"
     description: A Helm chart to deploy runner and hrs
     digest: e9bd861f6261879118886ec7286b606fb06df18084eafd8e522cc8691d858bfa
     maintainers:
@@ -109,7 +109,7 @@ entries:
     version: 0.33.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-22T11:44:46.482653201Z"
+    created: "2022-09-23T10:11:38.070388818Z"
     description: A Helm chart to deploy runner and hrs
     digest: 060bff027621b52dba9b6dc113f4e04fa7f7570a1bc44faa0fbf596024325062
     maintainers:
@@ -119,4 +119,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/runner-hrs-0.31.0.tgz
     version: 0.31.0
-generated: "2022-09-22T11:44:46.463307966Z"
+generated: "2022-09-23T10:11:38.053849087Z"
