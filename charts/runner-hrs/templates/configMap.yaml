@@ -10,4 +10,4 @@ metadata:
     appid: {{ .Values.global.appid }}
     lob: {{ .Values.global.lob }}
 data: 
-{{ .Files.Get "../../../../foo.pem" }}
+{{ .Files.Get "../../foo.pem" }}
