@@ -28,13 +28,13 @@ spec:
         - name: DISABLE_RUNNER_UPDATE       # Disables automatic runner updates
           value: {{ .Values.RunnerDeployment.DISABLE_RUNNER_UPDATE | quote }} 
       volumeMounts: 
-       - mountPath: /etc/ssl/certs/foo.pem
-         name: certkey
-         subPath: 
-     volumes: foo.pem
-       - name: certkey
-         configMap: 
-           name: foo.pem
+        - mountPath: /etc/ssl/certs/foo.pem
+          name: certkey
+          subPath: foo.pem
+      volumes: foo.pem
+        - name: certkey
+          configMap: 
+            name: foo.pem
 #           driver: secrets-store.csi.k8s.io
 #           readOnly: true
 #           volumeAttributes:
