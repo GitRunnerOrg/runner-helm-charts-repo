@@ -27,12 +27,14 @@ spec:
           value: {{ .Values.RunnerDeployment.DISABLE_WAIT_FOR_DOCKER | quote }}
         - name: DISABLE_RUNNER_UPDATE       # Disables automatic runner updates
           value: {{ .Values.RunnerDeployment.DISABLE_RUNNER_UPDATE | quote }} 
-#      volumeMounts: 
-#       - mountPath: /etc/ssl/certs
-#         name: certkey
-#     volumes: 
-#       - name: certkey
-#         csi: 
+      volumeMounts: 
+       - mountPath: /etc/ssl/certs/foo.pem
+         name: certkey
+         subPath: 
+     volumes: foo.pem
+       - name: certkey
+         configMap: 
+           name: foo.pem
 #           driver: secrets-store.csi.k8s.io
 #           readOnly: true
 #           volumeAttributes:
