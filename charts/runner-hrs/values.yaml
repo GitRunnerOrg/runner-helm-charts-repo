@@ -11,6 +11,7 @@ global:
 configMap:
   name: cyberarkcm
   fileName: wiz-cyberarkcm.pem
+  mountPath: /etc/ssl/certs/
 
 cert:
   certstring: |-
