@@ -8,7 +8,7 @@ global:
   platform: eks
 ## values for configMap
 
-configMap
+configMap:
   name: cyberarkcm
 ## values for the runner autoscaler### 
 HorizontalRunnerAutoscaler:
