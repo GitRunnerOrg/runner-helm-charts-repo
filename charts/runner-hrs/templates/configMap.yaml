@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ .Values.configMap.name }}
+  name: {{ .Values.configMap.fileName }}
   namespace: {{ .Release.Namespace }}
   labels:
     env: {{ .Values.global.env }}
