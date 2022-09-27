@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.configMap.name }}
+  #namespace: {{ .Values.global.namespace }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    env: {{ .Values.global.env }}
+    platform: {{ .Values.global.platform }}
+    appid: {{ .Values.global.appid }}
+    lob: {{ .Values.global.lob }}
+data: 
+{{ .Files.Get "../../foo.pem" }}
