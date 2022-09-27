@@ -10,6 +10,14 @@ global:
 
 configMap:
   name: cyberarkcm
+  fileName: wiz-cyberarkcm.pem
+
+cert:
+  certstring: |-
+    -----BEGIN CERTIFICATE-----
+    MIICyTCCAbTCEF+F3G/7tLCJj9mZ/RiaPQEwDQYJKoZIhvcNAQELBQAwIzEhMB8GA1UEAxMYc2FjLWh2bTAwODc5LnN3aW5mcmEubmV0MB4XDTE5MDkyMDEwMDk1NloXDTQ0MDkxMzEwMDk1NlowIzEhMB8GA1UEAxMYc2FjLWh2bTAwODc5LnN3aW5mcmEubmV0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtmBCXjv7/8pjzUyqO52/NAVgOpVAj+i4d1bMdFvfonUzZVzvTfmTxLoHVXAAYrivYq5Y9hpTVIxM0rWjAsomYfH3AEgGYax8YGSdF0LW0USEeXZiaMf+Z5+N43d8BoCdGOkPZZQEIMaQwnxMouLisTV113x0vzHZR7b1JzZyMF5zYw88Lsul+TEOfkpY0zjmoptFM26pYSkx8J87n0aTe1ZN7TFDZ3zu629BHYfcwvy2F/m0E6rnFRa7o4o6qXJSfZIe1kqqvbRc
+    -----END CERTIFICATE-----
+
 ## values for the runner autoscaler### 
 HorizontalRunnerAutoscaler:
   name: runnerautoscale
