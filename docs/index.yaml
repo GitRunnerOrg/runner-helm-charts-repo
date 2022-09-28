@@ -3,10 +3,10 @@ entries:
   actions-runner-controller:
   - apiVersion: v2
     appVersion: 0.25.2
-    created: "2022-09-27T12:44:40.306144434Z"
+    created: "2022-09-28T11:06:04.251479381Z"
     description: A Kubernetes controller that operates self-hosted runners for GitHub
       Actions on your Kubernetes cluster.
-    digest: 21996189af2ad3a0dc4094bc5909694239634c2454d2a398168fc565def74bde
+    digest: 8f22f51313ccc45c8c23b2a8b5a86c3538c13c322df6dc28c2220b8a6c4ea073
     home: https://github.com/actions-runner-controller/actions-runner-controller
     maintainers:
     - name: RjDev
@@ -21,9 +21,9 @@ entries:
   aws-ecr-auth:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2022-09-27T12:44:40.306409537Z"
+    created: "2022-09-28T11:06:04.251764382Z"
     description: A Helm chart for Kubernetes cron job for aws_ecr_auth
-    digest: 550b9e53016bd5098d2bdb3388e497a7c5da50dbc7eb9e7e31f89184f0749b64
+    digest: e97a972a0b4ba27f5ebc08173183a387611965f579cb67aa65f3dd8ac981cc61
     maintainers:
     - name: RjDev
     name: aws-ecr-auth
@@ -39,9 +39,9 @@ entries:
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v1
     appVersion: v1.8.0
-    created: "2022-09-27T12:44:40.309755573Z"
+    created: "2022-09-28T11:06:04.2551367Z"
     description: A Helm chart for cert-manager
-    digest: 0b1d1739f8d9d93f4de13bed3d67311882d5619fb1c4630d02422660fdaaa68f
+    digest: 0f2e59febd1d50e583fa3cdf47d30fbdf0e1da996168cac07c671f5fd73388ac
     home: https://github.com/cert-manager/cert-manager
     icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
     keywords:
@@ -61,7 +61,19 @@ entries:
   runner-hrs:
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.312851606Z"
+    created: "2022-09-28T11:06:04.259318421Z"
+    description: A Helm chart to deploy runner and hrs
+    digest: 9ca6137e32009a3d60d5c0b38fdeef7cc217e23848bca4b1d36942df654b6ef6
+    maintainers:
+    - name: RjDev
+    name: runner-hrs
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/runner-hrs-0.43.0.tgz
+    version: 0.43.0
+  - apiVersion: v2
+    appVersion: 1.20.0
+    created: "2022-09-28T11:06:04.258942919Z"
     description: A Helm chart to deploy runner and hrs
     digest: 2690190ba2c6f6d6c0b23a36513d5e20e0946b759611bab43531b01ad466096f
     maintainers:
@@ -73,7 +85,7 @@ entries:
     version: 0.42.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.312524502Z"
+    created: "2022-09-28T11:06:04.258566717Z"
     description: A Helm chart to deploy runner and hrs
     digest: a781b2ad5209e55c8d9fa4079716329afb26a0fbc5a1486f93bf7f502b6896d1
     maintainers:
@@ -85,7 +97,7 @@ entries:
     version: 0.41.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.312234999Z"
+    created: "2022-09-28T11:06:04.258204415Z"
     description: A Helm chart to deploy runner and hrs
     digest: 2cda5bb2fc52a900c111257aeb97f5cc15a0ac8ea58834976a6ecca5799675e6
     maintainers:
@@ -97,7 +109,7 @@ entries:
     version: 0.40.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.311963096Z"
+    created: "2022-09-28T11:06:04.257841314Z"
     description: A Helm chart to deploy runner and hrs
     digest: 3656c23ed80c39c6a5dc381375fc39e7100187ba814a5a8d20f5f0a6f5b0e900
     maintainers:
@@ -109,7 +121,7 @@ entries:
     version: 0.39.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.311677993Z"
+    created: "2022-09-28T11:06:04.257479712Z"
     description: A Helm chart to deploy runner and hrs
     digest: 92973309982902e8b964078f9c04807b645044c1ecfe2ede3ced2a72bfc92738
     maintainers:
@@ -121,7 +133,7 @@ entries:
     version: 0.38.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.311413891Z"
+    created: "2022-09-28T11:06:04.25717351Z"
     description: A Helm chart to deploy runner and hrs
     digest: da87fe74a299e92350fa714bd515159eb88c320288167a35f4e27b849855a6d2
     maintainers:
@@ -133,7 +145,7 @@ entries:
     version: 0.37.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.311153688Z"
+    created: "2022-09-28T11:06:04.256809808Z"
     description: A Helm chart to deploy runner and hrs
     digest: b738b06dc0ba4c7bb4de17d0a873abc8c2d94e9ba40602b2ae4602226016b85d
     maintainers:
@@ -145,7 +157,7 @@ entries:
     version: 0.36.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.310888085Z"
+    created: "2022-09-28T11:06:04.256483007Z"
     description: A Helm chart to deploy runner and hrs
     digest: 3d4a9742514b4f649bbf229a6f9746562048b38a8a17933b76f83d10f318384f
     maintainers:
@@ -157,7 +169,7 @@ entries:
     version: 0.35.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.310603782Z"
+    created: "2022-09-28T11:06:04.256143605Z"
     description: A Helm chart to deploy runner and hrs
     digest: f9cce584a3127ff72004626076f82e8c9c7942b0e8141a4701936c6e623bcf4c
     maintainers:
@@ -169,7 +181,7 @@ entries:
     version: 0.34.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.310333279Z"
+    created: "2022-09-28T11:06:04.255809603Z"
     description: A Helm chart to deploy runner and hrs
     digest: e9bd861f6261879118886ec7286b606fb06df18084eafd8e522cc8691d858bfa
     maintainers:
@@ -181,7 +193,7 @@ entries:
     version: 0.33.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2022-09-27T12:44:40.310061976Z"
+    created: "2022-09-28T11:06:04.255485901Z"
     description: A Helm chart to deploy runner and hrs
     digest: 060bff027621b52dba9b6dc113f4e04fa7f7570a1bc44faa0fbf596024325062
     maintainers:
@@ -191,4 +203,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/GitRunnerOrg/runner-helm-charts-repo/gh-pages/docs/runner-hrs-0.31.0.tgz
     version: 0.31.0
-generated: "2022-09-27T12:44:40.293468599Z"
+generated: "2022-09-28T11:06:04.240041421Z"
